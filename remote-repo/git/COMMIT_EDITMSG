@@ -1,13 +1,1 @@
-rename source file
-
-#Co-authored-by: <@turbulent.ca>
-
-
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# On branch main
-# Changes to be committed:
-#	new file:   src/source-file.js
-#	deleted:    src/source.js
-#
+modify a file by a coworker

@@ -1,6 +1,14 @@
-0000000000000000000000000000000000000000 69a1f2f2470a85c4abee7675b7c87f2ce79e05e2 Guillaume Lagorce <glagorce@turbulent.ca> 1641852402 -0500	commit (initial): initial commit
-69a1f2f2470a85c4abee7675b7c87f2ce79e05e2 44c6a74820e096733c4e2a0152c3397fb19730f5 Guillaume Lagorce <glagorce@turbulent.ca> 1641905498 -0500	commit: rename source file
-44c6a74820e096733c4e2a0152c3397fb19730f5 c6341aaea0d784f96098a7654ef93fbf6d3ec8e4 Guillaume Lagorce <glagorce@turbulent.ca> 1641939362 -0500	commit: modify a file by a coworker
-c6341aaea0d784f96098a7654ef93fbf6d3ec8e4 e0decd82b910d012027daebf27b4ffafa72ed9f2 Guillaume Lagorce <glagorce@turbulent.ca> 1641940334 -0500	commit: modify a file by a coworker
-e0decd82b910d012027daebf27b4ffafa72ed9f2 db24aa1a0c86cf8bda27939e33469c70c31af946 Guillaume Lagorce <glagorce@turbulent.ca> 1641940853 -0500	commit: modify a file by a coworker
-db24aa1a0c86cf8bda27939e33469c70c31af946 44c6a74820e096733c4e2a0152c3397fb19730f5 Guillaume Lagorce <glagorce@turbulent.ca> 1642004617 -0500	reset: moving to 44c6a74820e096733c4e2a0152c3397fb19730f5
+0000000000000000000000000000000000000000 81e7777f273310a65dd69f1c1e223ba39efe0ef0 Guillaume Lagorce <glagorce@turbulent.ca> 1642687228 -0500	commit (initial): release At The BBC
+81e7777f273310a65dd69f1c1e223ba39efe0ef0 44dce80989ab04d39f0a7b73e6a498bb70576d89 Guillaume Lagorce <glagorce@turbulent.ca> 1642687244 -0500	commit: release Queen
+44dce80989ab04d39f0a7b73e6a498bb70576d89 6cfda9294e7c1411e34360bb75e5298db68d6ec9 Guillaume Lagorce <glagorce@turbulent.ca> 1642687290 -0500	commit: release Queen II
+6cfda9294e7c1411e34360bb75e5298db68d6ec9 d9d04ab5174f1c1f3ecfd60e174650933c4e2419 Guillaume Lagorce <glagorce@turbulent.ca> 1642687307 -0500	commit: release Killer Queen
+d9d04ab5174f1c1f3ecfd60e174650933c4e2419 6c60d8fca9e81bbc1023ae4dfe31dc4f13803aae Guillaume Lagorce <glagorce@turbulent.ca> 1642687328 -0500	commit: release Sheer Hear Attack
+6c60d8fca9e81bbc1023ae4dfe31dc4f13803aae 8d08d1297c5f5580ce1215ba422dd3b58e7a8d54 Guillaume Lagorce <glagorce@turbulent.ca> 1642687357 -0500	commit: release A Night At The Opera
+8d08d1297c5f5580ce1215ba422dd3b58e7a8d54 1838bde11720a738a3e85b928a7c2eb8d982f09d Guillaume Lagorce <glagorce@turbulent.ca> 1642687375 -0500	commit: release A Day At The Races
+1838bde11720a738a3e85b928a7c2eb8d982f09d 828a2c45ef9432852d0afe70afa4a1ec02e4d1eb Guillaume Lagorce <glagorce@turbulent.ca> 1642687389 -0500	commit: release News Of The World
+828a2c45ef9432852d0afe70afa4a1ec02e4d1eb 74d31152c66b60a8853aa992740e9379b1471ead Guillaume Lagorce <glagorce@turbulent.ca> 1642687401 -0500	commit: release Jazz
+74d31152c66b60a8853aa992740e9379b1471ead 7c86e5cc59339bcb4cbdc83d11c01dfe6b631511 Guillaume Lagorce <glagorce@turbulent.ca> 1642687421 -0500	commit: release Live Killers
+7c86e5cc59339bcb4cbdc83d11c01dfe6b631511 4ff2f60c49a905a11dffe66d5641b9b07049e53f Guillaume Lagorce <glagorce@turbulent.ca> 1642687439 -0500	commit: release The Game
+4ff2f60c49a905a11dffe66d5641b9b07049e53f 19439267ce9b23beb9accf0f564b6ca0e71a87ad Guillaume Lagorce <glagorce@turbulent.ca> 1642687467 -0500	commit: release Greatest Hits
+19439267ce9b23beb9accf0f564b6ca0e71a87ad 688c9938616d8f4c9c61058c0f14c159aea16bd2 Guillaume Lagorce <glagorce@turbulent.ca> 1642687479 -0500	commit: release Hot Space
+688c9938616d8f4c9c61058c0f14c159aea16bd2 8ec013ab1a1b1f831f4d20d88f6c0d1853b9e15f Guillaume Lagorce <glagorce@turbulent.ca> 1642687489 -0500	commit: release The Works

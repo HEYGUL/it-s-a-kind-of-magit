@@ -9,7 +9,7 @@
   There is still **one** tool we **all** use on daily basis: Git.
 
   I had the chance so far to meet many developers in many context and yet Git - even for more senior people - might still appear as *magic*.
-  The underlying concept are not always known and thus Git might appear to work as expected.
+  The underlying concept are not always known and thus Git might appear to not work as expected.
 
 
 ## Presentation of myself
@@ -23,69 +23,69 @@
 
   In this talk, I will try to show you my personal tips and make you fall in love with Git - at least stop hating it.
 
-  Ready? Let's go for a magic trick!
 
-## The magic trick
-
-  git clone abcd
-  git switch -c new-branch
-  *create a file*
-  git add --interactive
-  *add something in file*
-  git add --patch
-  git commit
-  *modify other file*
-  git add --patch
-  git commit
-  *oups I missed something in first commit*
-  git add --patch
-  tig #copy sha1
-  git commit --fixup
-  git rebase --interactive --autosquash
-  *modify other file*
-  *on background, new commit from other dev*
-  git push
-  *error while pushing*
-  git push --force
-  *damn! I erase commit from my co-worker!*
-  git reflog
-  git reset *from reflog*
-  git push --force-with-lease
-  git pull --rebase --autostash
-  git push --force-with-lease
-
-  **And voila!**
-
-## The magic trick explainations
+## Overall Git principles
 
   Demistifying Git: it's a simple file system with a dedicated folder named `.git` which stores historical states of the file system.
 
   A commit is a list of differences between two states of the file system and a reference to one or several parent commits.
 
-  A branch is a name given to a series of commits on the with a common ancestor.
-
+  A branch is a name given to a series of commits with a common ancestor.
   A tag is a label on a given commit.
 
   Git it a decentralized version manager.
   It is said decentralized as there is no single source of truth.
-  *Add some explainations about remote, GitHub, GitLab, Bitbucket, etc...*
+  GitHub, GitLab, Bitbucket, etc, are services offering to store a remote git repository. Thus, we can share and collaborate on the same source code from anywhere.
 
-  Explain each command with a schema showing:
-    - local file system
-    - stage area
-    - local repo
-    - remote repo
 
-  Add a documentation link to each command.
+## Problems with Git
+
+1. I forgot to remove a `console.log` in the third previous commit!
+
+*show git commit --fixup and git rebase --autorebase*
+Queen wants to remove extra annotation in the guitar tabs introduced three commits before.
+
+2. I cannot push my changes as a coworker added some commits!
+
+*show git pull --rebase --autostash and autorebase config*
+Brian May wants to add some fix to the guitar tab but Freddy couldn't avoid him to add some changes before.
+
+3. I have multiple changes in a single file and I want to do two commits rather than only one commit!
+
+*show git add --patch*
+Freddy made some changes to the lyrics, at two different locations.
+
+4. I rebase commits already on remote, how can I ensure myself to not erase commits from coworker?
+
+*show git push --force-with-lease*
+
+
+5. I created new files, how to deal with them?
+
+*show git add --interactive and git status --untracked-files=all*
+
+
+6. I fed up with typing errors, how can I improve?
+
+*show option help.autocorrect*
+
+
+7. I erased commits from my coworker!
+
+*show git reflog & git reset*
+
 
 ## Conclusion
 
   I hope you enjoy and learn things about Git.
   Like any tools we used in our daily job, it is mandatory to us to raise our awareness of what Git is so we can take the most of it.
+  Take time to practice and read the documentation, it's worth it.
+  You can also learn a lot by showing your habits and looking at others.
 
-  
+  Taking care of your tool is one of fundamentals of software craftsmanship movement.
 
 ## References
 
 Git documentation:
 Tools used for this presentation:
+

@@ -22,7 +22,7 @@ TYPE_SPEED=30
 DEMO_PROMPT="${GREEN}➜ ${CYAN}\W "
 
 # text color
-# DEMO_CMD_COLOR=$BLACK
+DEMO_CMD_COLOR=$BLACK
 
 clear
 
@@ -42,7 +42,8 @@ git clone --local remote-repo local-repo
 
 pe "cd local-repo"
 
-pe "git switch --create a-feature-branch --track origin"
+pe "git switch --create feature-branch"
+pe "git push --set-upstream origin feature-branch"
 
 pe "touch src/other-source-file.js"
 pe "git add --interactive"
@@ -66,6 +67,7 @@ pe "vim src/source-file.js"
 # commit from coworker in the background
 cd ../remote-repo
 echo "added by co-worker" >> src/source-file.js
+git switch feature-branch
 git add src/source-file.js
 git commit -m "modify a file by a coworker"
 cd -
@@ -73,8 +75,8 @@ cd -
 
 pe "git add --patch"
 pe "git commit"
-pe "git push --set-upstream origin main"
-pe "git push --set-upstream origin main --force"
+pe "git push"
+pe "git push --force"
 pe "git reflog"
 pe "git push --force-with-lease"
 pe "git pull --rebase --autostash"

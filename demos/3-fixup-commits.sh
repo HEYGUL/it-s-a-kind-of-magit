@@ -22,10 +22,11 @@ git config user.email freddie@queenonline.com
 cd ../remote-repo/
 git switch a-kind-of-magic
 cd albums/1985_xx_yy_A_Kind_Of_Magic/A_Kind_Of_Magic
-sed '1 i ---' lyrics.md
-sed '1 i title: A Kind Of Magic' lyrics.md
-sed '1 i ---' lyrics.md
+sed -i '' '1s/^/---\'$'\n/g' lyrics.md
+sed -i '' '1s/^/title: A Kind Of Magic\'$'\n/g' lyrics.md
+sed -i '' '1s/^/---\'$'\n/g' lyrics.md
 git commit -am 'add metadata to a kind of magic'
+git switch main
 
 git config user.name "Roger Taylor"
 git config user.email roger@queenonline.com
@@ -34,8 +35,6 @@ git config user.email roger@queenonline.com
 pe "git push"
 pe "git push --force"
 
-# show a prompt so as not to reveal our true nature after
-# the demo has concluded
-p ""
-
 cd ..
+
+open -a "Keynote"

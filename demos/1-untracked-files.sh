@@ -44,3 +44,7 @@ pe "git push -u origin a-kind-of-magic"
 p ""
 
 cd ..
+
+open -a "Keynote"
+
+./2-small-commits.sh

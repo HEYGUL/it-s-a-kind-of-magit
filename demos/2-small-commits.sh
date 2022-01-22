@@ -4,7 +4,6 @@
 
 cd local-repo
 
-# change git user to Roger Taylor
 git config user.name "Freddie Mercury"
 git config user.email freddie@queenonline.com
 
@@ -18,9 +17,7 @@ pe "git add --patch"
 pe "git commit"
 pe "git add --patch"
 pe "git commit"
-
-# enters interactive mode and allows newly typed command to be executed
-# cmd
+pe "git push"
 
 # show a prompt so as not to reveal our true nature after
 # the demo has concluded

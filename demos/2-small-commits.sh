@@ -15,12 +15,15 @@ cp ../remote-repo/albums/1985_xx_yy_A_Kind_Of_Magic/A_Kind_Of_Magic/.modified-ly
 pe "git status"
 pe "git add --patch"
 pe "git commit"
+cmd
 pe "git add --patch"
 pe "git commit"
+cmd
 pe "git push"
 
 # show a prompt so as not to reveal our true nature after
 # the demo has concluded
+p ""
 
 cd ..
 

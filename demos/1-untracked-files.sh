@@ -18,6 +18,9 @@ mkdir local-repo
 git clone --local remote-repo local-repo
 cd local-repo
 
+# configure git template
+git config --local commit.template ../../.stCommitMsg
+
 # switch to Roger's branch
 git switch -c a-kind-of-magic
 
@@ -34,6 +37,7 @@ pe "git status"
 pe "git status --untracked-files=all"
 pe "git add --interactive"
 pe "git commit"
+cmd
 pe "git push -u origin a-kind-of-magic"
 
 # enters interactive mode and allows newly typed command to be executed
@@ -46,5 +50,4 @@ p ""
 cd ..
 
 open -a "Keynote"
-
 ./2-small-commits.sh
